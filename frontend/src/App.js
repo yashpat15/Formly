@@ -14,7 +14,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename="/Formly">
       <div
         className={`min-h-screen flex flex-col ${
           isDarkMode ? "bg-[#0d1117] text-white" : "bg-white text-black"
@@ -36,7 +36,7 @@ const App = () => {
               {isDarkMode ? <BsSunFill size={20} /> : <BsMoonFill size={20} />}
             </button>
             <a
-              href="https://github.com"
+              href="https://github.com/yashpat15/Formly/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-400"
@@ -77,7 +77,6 @@ const App = () => {
                 </>
               }
             />
-            {/*DarkMode */}
             <Route
               path="/playground"
               element={<Playground isDarkMode={isDarkMode} />}
