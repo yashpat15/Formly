@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Formly/static/css/main.edd63c44.css",
+    "main.js": "/Formly/static/js/main.8ae98691.js",
+    "static/js/453.8ab44547.chunk.js": "/Formly/static/js/453.8ab44547.chunk.js",
+    "index.html": "/Formly/index.html",
+    "main.edd63c44.css.map": "/Formly/static/css/main.edd63c44.css.map",
+    "main.8ae98691.js.map": "/Formly/static/js/main.8ae98691.js.map",
+    "453.8ab44547.chunk.js.map": "/Formly/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edd63c44.css",
+    "static/js/main.8ae98691.js"
+  ]
+}
