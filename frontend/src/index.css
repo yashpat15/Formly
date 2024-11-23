@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 3rem; 
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.playground-btn {
+  background-color: transparent; 
+  border: 2px solid #ffffff; 
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.playground-btn:hover {
+  background-color: #ffffff; 
+  color: #0d1117; 
+}
